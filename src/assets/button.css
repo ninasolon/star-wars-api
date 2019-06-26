@@ -1,0 +1,15 @@
+.btn--next {
+  margin: 2rem;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: .6rem 1.5rem;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.btn--next:hover {
+  background-color: rgb(150, 150, 150);
+}

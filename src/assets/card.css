@@ -1,0 +1,53 @@
+.card--container {
+  box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.2);
+  width: 300px;
+  min-height: 285px;
+  margin-top: 6.25rem;
+}
+
+@media (max-width: 420px) {
+  .card--container {
+    width: 90%;
+  }
+}
+
+.card--container hr {
+  width: 200px;
+  height: .25rem;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.15);
+  border: none;
+}
+
+.card--title {
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.card--info {
+  min-height: 200px;
+  margin: 2.5rem 1.5rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card--info li {
+  list-style: none;
+}
+
+.card--info span {
+  font-weight: bold;
+}
+
+.card--info__featured {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.error-message {
+  margin-top: 6.25rem;
+  line-height: 2rem;
+  text-align: center;
+}
